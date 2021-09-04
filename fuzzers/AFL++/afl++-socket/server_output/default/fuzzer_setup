@@ -1,0 +1,4 @@
+# environment variables:
+AFL_KILL_SIGNAL=9
+# command line:
+'./afl-fuzz' '-i' '../../../seeds/single/readelf' '-o' 'server_output' '-w' '5' '-y' '10' '-P' '6001' '-g' '-d' '../../../fuzzbench/base/readelf/readelf' '-a' '@@'

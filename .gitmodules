@@ -1,0 +1,21 @@
+[submodule "fuzzers/AFL/afl"]
+	path = fuzzers/AFL/afl
+	url = https://github.com/google/AFL
+[submodule "fuzzers/FairFuzz/fairfuzz"]
+	path = fuzzers/FairFuzz/fairfuzz
+	url = https://github.com/carolemieux/afl-rb.git
+[submodule "fuzzers/QSYM"]
+	path = fuzzers/QSYM
+	url = https://github.com/sslab-gatech/qsym.git
+[submodule "fuzzers/Neuzz/neuzz"]
+	path = fuzzers/Neuzz/neuzz
+	url = https://github.com/Dongdongshe/neuzz.git
+[submodule "fuzzers/MOPT/mopt"]
+	path = fuzzers/MOPT/mopt
+	url = https://github.com/puppet-meteor/MOpt-AFL.git
+[submodule "fuzzers/MTFuzz/mtfuzz"]
+	path = fuzzers/MTFuzz/mtfuzz
+	url = https://github.com/rahlk/MTFuzz.git
+[submodule "fuzzers/AFL++/afl++"]
+	path = fuzzers/AFL++/afl++
+	url = https://github.com/AFLplusplus/AFLplusplus.git

@@ -1,0 +1,6 @@
+# relative_time, cycles_done, cur_path, paths_total, pending_total, pending_favs, map_size, unique_crashes, unique_hangs, max_depth, execs_per_sec, total_execs, edges_found
+68, 0, 0, 626, 626, 1, 0.03%, 0, 0, 2, 1.56, 6762, 2549
+73, 0, 0, 694, 694, 1, 0.03%, 0, 0, 2, 375.70, 8685, 2609
+99, 0, 0, 840, 840, 1, 0.03%, 0, 0, 2, 4.28, 10545, 2635
+104, 0, 0, 882, 882, 1, 0.03%, 0, 0, 2, 403.88, 12607, 2653
+124, 0, 0, 985, 985, 1, 0.03%, 0, 0, 2, 3.89, 14394, 2683
