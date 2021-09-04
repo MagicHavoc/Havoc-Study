@@ -46,3 +46,42 @@ $ cd Havoc_DMA && make -j
 # start fuzz
 $ Havoc_DMA/afl-fuzz -d -i $FUZZ_IN -o $FUZZ_OUT -- /path/to/program [params] @@
 ```
+
+## Havoc Programs
+
+| Programs      | Neuzz | MTFuzz | QSYM | FairFuzz | MOPT | SUM  | Selected ? |
+| ------------- | ----- | ------ | ---- | -------- | ---- | ---- | ---------- |
+| readelf       | 1     | 1      |      | 1        |      | 3    | done       |
+| nm            | 1     | 1      |      | 1        |      | 3    | done       |
+| objdump       | 1     | 1      | 1    | 1        |      | 4    | done       |
+| size          | 1     | 1      |      |          | 1    | 3    | done       |
+| strip         | 1     | 1      |      |          |      | 2    | done       |
+| harfbuzz      | 1     | 1      |      |          |      | 2    | done       |
+| libjpeg       | 1     | 1      |      | 1        |      | 3    | done       |
+| mupdf         | 1     | 1      |      | 1        |      | 3    | done       |
+| libxml        | 1     | 1      |      |          |      | 2    | --         |
+| zlib          | 1     | 1      |      |          |      | 2    | --         |
+| lepton        |       |        | 1    |          |      | 1    |            |
+| openjpeg      |       |        | 1    |          |      | 1    |            |
+| tcpdump       |       |        | 1    | 1        |      | 2    | done       |
+| file          |       |        | 1    |          |      | 1    |            |
+| libarchive    |       |        | 1    |          |      | 1    |            |
+| audiofile     |       |        | 1    |          |      | 1    |            |
+| ffmpeg        |       |        | 1    |          |      | 1    |            |
+| c++ flip      |       |        | 1    | 1        |      | 2    | --         |
+| xmlint        |       |        |      | 1        |      | 1    | done       |
+| readpng       |       |        |      | 1        |      | 1    |            |
+| jhead         |       |        |      |          | 1    | 1    | done       |
+| tiff2bw       |       |        |      |          | 1    | 1    | done       |
+| mp42aac       |       |        |      |          | 1    | 1    |            |
+| exiv2         |       |        |      |          | 1    | 1    |            |
+| mp3gain       |       |        |      |          | 1    | 1    |            |
+| pdfimages     |       |        |      |          | 1    | 1    |            |
+| sam2p         |       |        |      |          | 1    | 1    |            |
+| avconv        |       |        |      |          | 1    | 1    |            |
+| w3m           |       |        |      |          | 1    | 1    |            |
+| mpg321        |       |        |      |          | 1    | 1    |            |
+| infotocap     |       |        |      |          | 1    | 1    |            |
+| podofopdfinfo |       |        |      |          | 1    | 1    |            |
+
+
