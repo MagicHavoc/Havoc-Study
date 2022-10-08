@@ -1,4 +1,6 @@
-## Havoc Study
+# Havoc Study
+
+Now the prefuzz has been migrated to the new repository: https://github.com/Tricker-z/havoc-mab
 
 # Environment
 
